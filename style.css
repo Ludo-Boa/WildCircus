@@ -1,0 +1,386 @@
+
+	/* BONES */
+#bloccenter {
+	max-width: 1200px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#bkg-home {
+	background-color: #002038;
+}
+#bkg-history {
+	background-color: #d35400;
+}
+#bkg-shows {
+	background-color: #27ae60;
+}
+#bkg-clouds {
+	background-color: #2980b9;
+}
+#bkg-giants {
+	background-color: #9b59b6;
+}
+#bkg-metrics {
+	background-color: #d35400;
+}
+#bkg-tickets {
+	background-color: #B2325F;
+}
+#bkg-contact {
+	background-color: #c0392b;
+}
+
+#ben {
+	width: 1190px;
+	height: 250px;
+	position: relative;
+	border: 4px double white;
+}
+
+#bloctitle {
+	text-align: center;
+	width:1195px;
+	height: 250px;
+	position: absolute;
+	top: 15px;
+}
+
+.new {
+	text-decoration: underline;
+}
+
+.exo {
+	position: relative;
+	bottom: 30px;
+}
+
+
+
+	/* TEXT */
+
+p {
+	font-family:  Georgia, Times new roman, Lucida, Myriad pro, Arial, Serif, Sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+h1{
+	font-family: 'Ewert', Cursive, Georgia;
+	font-weight: normal;
+	font-size: 3.8em;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	
+}
+#tit {
+	position: absolute;
+	width: 1195px;
+	top: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fontdiner Swanky', Cursive, Georgia;
+	font-weight: ;
+	font-size: 2.5em;
+	color: black;
+}
+
+h3{
+	font-family: 'Fontdiner Swanky', cursive, Georgia;
+	font-size: 2.2em;
+}
+
+h4 {
+	color: black;
+	font-family: 'Ewert', cursive, Georgia;
+	font-size: 2.5em;
+	font-weight: normal;
+	text-align: center;
+	border-top: 5px double black;
+	border-bottom: 5px double black;
+
+}
+
+.maj{
+	font-size: 2em;
+}
+
+
+	/* NAVIGATION */	
+a{
+	text-decoration: none;
+}
+
+nav{
+	width: 1198px;
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+nav li {   
+	display: inline-block;
+	font-family: georgia;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+nav a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;	
+}
+
+.nav-show:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#home{
+	border-right: 1px solid white;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#home:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+#history{
+	border-right: 1px solid white;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#history:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+#shows{
+	border-right: 1px solid white;
+	padding-right: 20px;
+	padding-left: 20px;
+}	
+#shows:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+#tickets{
+	border-right: 1px solid white;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#tickets:hover{
+	color: #FF1493;
+	text-decoration: underline;
+}
+
+#contact{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#contact:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+	/* HOME PAGE */
+
+.home {
+	position: relative;
+}
+
+#bkg{
+	width: 1150px;
+	margin: 25px;
+}
+.intro{
+	box-shadow: 0px 2px 5px #1c1a19;
+	width: 450px;
+	position: absolute;
+	left: 395px;
+	top: 84px;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(245 ,236, 219, 0.5);
+	border-radius: 10px;
+}
+
+
+	/* CLOUDS PAGE */
+.bloccl {
+	position: relative;
+}
+
+#bkgcl{
+	position: relative;
+	width: 800px;
+	height: 450px;
+	margin-top: 25px;
+	margin-bottom: 150px;
+	left: 350px;
+	border: 2px solid white;	
+}
+
+#clouds{
+	box-shadow: 0px 2px 5px #1c1a19;
+	position: absolute;
+	width: 500px;
+	top: 150px;
+	left: 50px;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: rgba(245 ,236, 219, 0.5);
+	border-radius: 10px;
+}
+
+#minibkg1 {
+	width: 300px;
+	height: 180px;
+	border: 1px solid white;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+	/* GIANTS PAGE */
+#blocgi {
+	position: relative;
+}
+#bkggi {
+	position: relative;
+	width: 800px;
+	height: 450px;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-bottom: 150px;
+	border: 2px solid white;
+}
+#giants {
+	box-shadow: 0px 2px 5px #1c1a19;
+	position: absolute;
+	width: 500px;
+	top: 200px;
+	left: 550px;
+	text-align: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: rgba(245 ,236, 219, 0.5);
+	border-radius: 10px;
+}
+#mini-gi {
+	width: 300px;
+	height: 180px;
+	border: 1px solid white;
+	margin-left: 100px ;
+	margin-right: 100px;
+}
+
+
+	/* THE METRICS PAGE */
+#blocme {
+	position: relative;
+}
+#bkg-gea {
+	width: 800px;
+	height: 450px;
+	border: 2px solid white;
+	margin: 50px;
+	margin-bottom: 150px;
+}
+.metrics {
+	box-shadow: 0px 2px 5px #1c1a19;
+	position: absolute;
+	width: 500px;
+	top: 200px;
+	left: 550px;
+	text-align: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: rgba(245 ,236, 219, 0.5);
+	border-radius: 10px;
+}
+#mini-gear {
+	width: 300px;
+	height: 180px;
+	border: 1px solid white;
+	margin-left: 100px ;
+	margin-right: 100px ;
+}
+
+
+	/* CONTACT PAGE*/
+.bloc-cont {
+	position: relative;
+}
+#bkg-cont {
+	width: 800px;
+	height: 450px;
+	margin: 50px;
+}
+
+#blocform {
+	color: black;
+	width: 500px;
+	font-size: 1em;
+	box-shadow: 0px 2px 5px #1c1a19;
+	background-color: rgba(245 ,236, 219, 0.5);
+	border-radius: 10px; 
+	position: absolute;
+	top: 100px;
+	left: 600px;
+}
+
+input {
+	margin-bottom: 15px;
+}
+		
+
+		/* FOOTER */
+footer {
+	text-align: center;
+}
+.copyr{
+	max-width: 1200px;
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+}
+
+
+#under {
+	width: 800px;
+}
+
+.bloc-show {
+	margin: 25px;
+}
+.mini-show {
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin-left: 60px;
+	margin-bottom: 25px;
+}
+
